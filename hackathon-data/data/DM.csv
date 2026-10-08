@@ -1,0 +1,242 @@
+usubjid,site,age,sex,race,cohort,arm,cut_available
+042-S01-001,S01,58,M,White,Cohort A,Active Drug 50mg,1
+042-S01-002,S01,62,F,Asian,Cohort A,Active Drug 50mg,1
+042-S02-001,S02,49,M,Black,Cohort B,Placebo,1
+042-S03-001,S03,71,M,White,Cohort A,Active Drug 50mg,1
+042-S05-001,S05,54,F,White,Cohort B,Placebo,1
+042-S05-003,S05,66,M,White,Cohort A,Active Drug 50mg,1
+042-S07-001,S07,60,F,Hispanic,Cohort A,Active Drug 50mg,1
+042-S07-002,S07,52,M,White,Cohort B,Active Drug 50mg,1
+042-S07-003,S07,69,F,White,Cohort B,Active Drug 50mg,1
+042-S10-001,S10,75,M,White,Cohort B,Active Drug 50mg,1
+042-S11-001,S11,49,M,White,Cohort A,Placebo,1
+042-S12-001,S12,37,M,White,Cohort A,Active Drug 50mg,1
+042-S01-002,S01,67,M,Other,Cohort A,Placebo,1
+042-S02-002,S02,49,F,Other,Cohort B,Active Drug 50mg,1
+042-S03-002,S03,45,F,Asian,Cohort B,Active Drug 50mg,1
+042-S04-002,S04,48,F,White,Cohort A,Placebo,1
+042-S05-002,S05,41,F,Asian,Cohort B,Active Drug 50mg,1
+042-S06-002,S06,64,M,Hispanic,Cohort A,Placebo,1
+042-S07-002,S07,75,F,Other,Cohort A,Active Drug 50mg,1
+042-S08-002,S08,37,M,Asian,Cohort A,Active Drug 50mg,1
+042-S09-002,S09,41,F,Asian,Cohort B,Placebo,1
+042-S10-002,S10,45,F,Asian,Cohort A,Placebo,1
+042-S11-002,S11,78,M,Other,Cohort A,Active Drug 50mg,1
+042-S12-002,S12,45,F,Hispanic,Cohort B,Active Drug 50mg,1
+042-S01-003,S01,78,F,White,Cohort A,Active Drug 50mg,1
+042-S02-003,S02,55,F,Asian,Cohort A,Active Drug 50mg,1
+042-S03-003,S03,71,F,Black,Cohort B,Placebo,1
+042-S04-003,S04,76,F,Black,Cohort B,Active Drug 50mg,1
+042-S05-003,S05,50,F,Other,Cohort B,Placebo,1
+042-S06-003,S06,58,M,Black,Cohort B,Active Drug 50mg,1
+042-S07-003,S07,38,M,Black,Cohort A,Placebo,1
+042-S08-003,S08,73,M,Hispanic,Cohort B,Placebo,1
+042-S09-003,S09,68,F,Other,Cohort A,Active Drug 50mg,1
+042-S10-003,S10,78,F,Asian,Cohort A,Placebo,1
+042-S11-003,S11,62,M,Hispanic,Cohort A,Placebo,1
+042-S12-003,S12,67,M,Other,Cohort A,Placebo,1
+042-S01-004,S01,75,M,Black,Cohort B,Active Drug 50mg,1
+042-S02-004,S02,69,M,Other,Cohort B,Placebo,1
+042-S03-004,S03,36,M,Asian,Cohort B,Active Drug 50mg,1
+042-S04-004,S04,38,M,Other,Cohort A,Active Drug 50mg,1
+042-S05-004,S05,66,M,Other,Cohort A,Active Drug 50mg,1
+042-S06-004,S06,77,F,Other,Cohort A,Placebo,1
+042-S07-004,S07,68,F,Black,Cohort A,Placebo,1
+042-S08-004,S08,60,F,Hispanic,Cohort B,Active Drug 50mg,1
+042-S09-004,S09,50,M,White,Cohort B,Active Drug 50mg,1
+042-S10-004,S10,72,M,Other,Cohort A,Active Drug 50mg,1
+042-S11-004,S11,39,M,Black,Cohort A,Active Drug 50mg,1
+042-S12-004,S12,56,M,Other,Cohort A,Placebo,1
+042-S01-005,S01,77,F,Black,Cohort A,Placebo,1
+042-S02-005,S02,50,F,Hispanic,Cohort A,Active Drug 50mg,1
+042-S03-005,S03,41,F,Asian,Cohort B,Placebo,1
+042-S04-005,S04,64,M,White,Cohort A,Placebo,1
+042-S05-005,S05,56,M,Black,Cohort A,Active Drug 50mg,1
+042-S06-005,S06,69,F,Black,Cohort B,Active Drug 50mg,1
+042-S07-005,S07,52,F,Black,Cohort A,Placebo,1
+042-S08-005,S08,70,M,White,Cohort A,Active Drug 50mg,1
+042-S09-005,S09,50,M,Hispanic,Cohort B,Placebo,1
+042-S10-005,S10,48,F,White,Cohort A,Placebo,1
+042-S11-005,S11,35,F,Asian,Cohort B,Placebo,1
+042-S12-005,S12,62,F,Black,Cohort A,Placebo,1
+042-S01-006,S01,48,M,Other,Cohort A,Placebo,1
+042-S02-006,S02,38,M,Other,Cohort B,Active Drug 50mg,1
+042-S03-006,S03,38,M,Black,Cohort A,Active Drug 50mg,1
+042-S04-006,S04,78,M,Hispanic,Cohort A,Active Drug 50mg,1
+042-S05-006,S05,72,M,Other,Cohort A,Placebo,1
+042-S06-006,S06,77,F,Asian,Cohort A,Placebo,1
+042-S07-006,S07,50,F,Hispanic,Cohort A,Placebo,1
+042-S08-006,S08,64,F,White,Cohort A,Placebo,1
+042-S09-006,S09,74,M,White,Cohort A,Placebo,1
+042-S10-006,S10,43,F,White,Cohort A,Placebo,1
+042-S11-006,S11,53,M,Hispanic,Cohort B,Active Drug 50mg,1
+042-S12-006,S12,77,F,White,Cohort A,Placebo,1
+042-S01-007,S01,42,M,Other,Cohort A,Placebo,1
+042-S02-007,S02,53,M,Asian,Cohort A,Placebo,1
+042-S03-007,S03,67,F,Asian,Cohort A,Active Drug 50mg,1
+042-S04-007,S04,75,F,Asian,Cohort A,Active Drug 50mg,1
+042-S05-007,S05,56,M,Asian,Cohort A,Placebo,1
+042-S06-007,S06,70,F,Other,Cohort A,Active Drug 50mg,1
+042-S07-007,S07,39,M,Other,Cohort A,Placebo,1
+042-S08-007,S08,72,M,Hispanic,Cohort A,Active Drug 50mg,1
+042-S09-007,S09,54,F,White,Cohort B,Active Drug 50mg,1
+042-S10-007,S10,78,M,White,Cohort B,Placebo,1
+042-S11-007,S11,74,M,Black,Cohort A,Active Drug 50mg,1
+042-S12-007,S12,61,M,Black,Cohort B,Placebo,1
+042-S01-008,S01,77,M,Asian,Cohort A,Active Drug 50mg,1
+042-S02-008,S02,59,M,Hispanic,Cohort A,Active Drug 50mg,1
+042-S03-008,S03,64,F,Asian,Cohort A,Active Drug 50mg,1
+042-S04-008,S04,36,M,Hispanic,Cohort B,Placebo,1
+042-S05-008,S05,39,F,Asian,Cohort B,Placebo,1
+042-S06-008,S06,36,M,Asian,Cohort A,Placebo,1
+042-S07-008,S07,37,M,Other,Cohort B,Placebo,1
+042-S08-008,S08,55,F,Other,Cohort A,Placebo,1
+042-S09-008,S09,71,M,Asian,Cohort A,Placebo,1
+042-S10-008,S10,35,M,Asian,Cohort B,Active Drug 50mg,1
+042-S11-008,S11,77,F,Other,Cohort B,Active Drug 50mg,1
+042-S12-008,S12,54,F,Hispanic,Cohort B,Placebo,1
+042-S01-009,S01,53,M,Black,Cohort B,Placebo,1
+042-S02-009,S02,78,M,Other,Cohort B,Placebo,1
+042-S03-009,S03,70,M,Asian,Cohort B,Active Drug 50mg,1
+042-S04-009,S04,62,F,Hispanic,Cohort B,Placebo,1
+042-S05-009,S05,78,M,Other,Cohort B,Active Drug 50mg,1
+042-S06-009,S06,77,M,Asian,Cohort B,Active Drug 50mg,1
+042-S07-009,S07,50,F,Black,Cohort A,Active Drug 50mg,1
+042-S08-009,S08,36,M,Black,Cohort B,Active Drug 50mg,1
+042-S09-009,S09,64,F,Other,Cohort A,Placebo,1
+042-S10-009,S10,66,F,Black,Cohort A,Active Drug 50mg,1
+042-S11-009,S11,41,F,Black,Cohort A,Placebo,1
+042-S12-009,S12,38,M,White,Cohort B,Active Drug 50mg,1
+042-S01-010,S01,64,F,Hispanic,Cohort B,Placebo,1
+042-S02-010,S02,45,F,Hispanic,Cohort B,Active Drug 50mg,1
+042-S03-010,S03,75,F,Other,Cohort B,Active Drug 50mg,1
+042-S04-010,S04,52,F,White,Cohort B,Active Drug 50mg,1
+042-S05-010,S05,52,F,Asian,Cohort A,Active Drug 50mg,1
+042-S06-010,S06,44,M,Hispanic,Cohort A,Active Drug 50mg,1
+042-S07-010,S07,39,F,Hispanic,Cohort B,Placebo,1
+042-S08-010,S08,61,M,Black,Cohort B,Placebo,1
+042-S09-010,S09,72,M,Other,Cohort B,Placebo,1
+042-S10-010,S10,35,F,Asian,Cohort B,Placebo,1
+042-S11-010,S11,69,M,Hispanic,Cohort A,Placebo,1
+042-S12-010,S12,62,F,White,Cohort B,Placebo,1
+042-S01-011,S01,77,F,Black,Cohort B,Active Drug 50mg,2
+042-S02-011,S02,74,M,Hispanic,Cohort A,Active Drug 50mg,2
+042-S03-011,S03,76,F,Black,Cohort B,Active Drug 50mg,2
+042-S04-011,S04,38,F,Hispanic,Cohort B,Active Drug 50mg,2
+042-S05-011,S05,64,F,Asian,Cohort B,Placebo,2
+042-S06-011,S06,61,F,White,Cohort B,Active Drug 50mg,2
+042-S07-011,S07,69,M,Asian,Cohort A,Active Drug 50mg,2
+042-S08-011,S08,76,M,White,Cohort A,Active Drug 50mg,2
+042-S09-011,S09,36,M,Black,Cohort A,Placebo,2
+042-S10-011,S10,77,M,Other,Cohort A,Placebo,2
+042-S11-011,S11,51,F,Black,Cohort A,Active Drug 50mg,2
+042-S12-011,S12,54,M,Other,Cohort A,Placebo,2
+042-S01-012,S01,71,F,Hispanic,Cohort A,Active Drug 50mg,2
+042-S02-012,S02,72,M,White,Cohort B,Active Drug 50mg,2
+042-S03-012,S03,71,M,Asian,Cohort B,Placebo,2
+042-S04-012,S04,39,F,White,Cohort B,Placebo,2
+042-S05-012,S05,41,F,Asian,Cohort B,Active Drug 50mg,2
+042-S06-012,S06,62,M,Other,Cohort B,Placebo,2
+042-S07-012,S07,64,F,Other,Cohort B,Placebo,2
+042-S08-012,S08,50,M,Asian,Cohort B,Active Drug 50mg,2
+042-S09-012,S09,64,F,Asian,Cohort A,Placebo,2
+042-S10-012,S10,55,M,Hispanic,Cohort A,Placebo,2
+042-S11-012,S11,51,F,Asian,Cohort B,Active Drug 50mg,2
+042-S12-012,S12,68,M,White,Cohort A,Placebo,2
+042-S01-013,S01,66,M,Hispanic,Cohort B,Placebo,2
+042-S02-013,S02,36,M,Asian,Cohort A,Placebo,2
+042-S03-013,S03,50,F,Other,Cohort B,Placebo,2
+042-S04-013,S04,70,F,Hispanic,Cohort B,Placebo,2
+042-S05-013,S05,64,F,Asian,Cohort B,Active Drug 50mg,2
+042-S06-013,S06,42,M,Asian,Cohort A,Active Drug 50mg,2
+042-S07-013,S07,47,M,Hispanic,Cohort B,Placebo,2
+042-S08-013,S08,41,M,Asian,Cohort A,Placebo,2
+042-S09-013,S09,46,F,White,Cohort A,Placebo,2
+042-S10-013,S10,37,M,Other,Cohort B,Active Drug 50mg,2
+042-S11-013,S11,75,F,White,Cohort A,Placebo,2
+042-S12-013,S12,65,F,Hispanic,Cohort B,Active Drug 50mg,2
+042-S01-014,S01,38,F,Hispanic,Cohort A,Active Drug 50mg,2
+042-S02-014,S02,60,F,White,Cohort A,Active Drug 50mg,2
+042-S03-014,S03,44,F,White,Cohort A,Active Drug 50mg,2
+042-S04-014,S04,70,F,Other,Cohort A,Placebo,2
+042-S05-014,S05,63,F,Asian,Cohort B,Placebo,2
+042-S06-014,S06,71,M,Other,Cohort A,Active Drug 50mg,2
+042-S07-014,S07,75,M,Asian,Cohort A,Active Drug 50mg,2
+042-S08-014,S08,50,M,Other,Cohort A,Active Drug 50mg,2
+042-S09-014,S09,35,F,Hispanic,Cohort B,Placebo,2
+042-S10-014,S10,37,M,Asian,Cohort B,Placebo,2
+042-S11-014,S11,39,M,Asian,Cohort A,Placebo,2
+042-S12-014,S12,42,M,Black,Cohort B,Active Drug 50mg,2
+042-S01-015,S01,39,M,Black,Cohort B,Placebo,2
+042-S02-015,S02,63,M,Hispanic,Cohort B,Placebo,2
+042-S03-015,S03,52,F,Hispanic,Cohort A,Active Drug 50mg,2
+042-S04-015,S04,62,F,Other,Cohort B,Active Drug 50mg,2
+042-S05-015,S05,40,M,Other,Cohort A,Placebo,2
+042-S06-015,S06,71,M,Black,Cohort B,Placebo,2
+042-S07-015,S07,52,M,Other,Cohort B,Placebo,2
+042-S08-015,S08,40,F,Asian,Cohort B,Placebo,2
+042-S09-015,S09,55,M,Black,Cohort B,Placebo,2
+042-S10-015,S10,66,F,Hispanic,Cohort A,Placebo,2
+042-S11-015,S11,40,F,Asian,Cohort B,Active Drug 50mg,2
+042-S12-015,S12,60,M,Other,Cohort B,Placebo,2
+042-S01-016,S01,38,M,Other,Cohort B,Placebo,3
+042-S02-016,S02,75,F,White,Cohort A,Placebo,3
+042-S03-016,S03,70,M,Asian,Cohort B,Placebo,3
+042-S04-016,S04,42,M,Other,Cohort A,Active Drug 50mg,3
+042-S05-016,S05,54,M,Other,Cohort B,Active Drug 50mg,3
+042-S06-016,S06,49,M,Hispanic,Cohort A,Active Drug 50mg,3
+042-S07-016,S07,66,F,Other,Cohort B,Placebo,3
+042-S08-016,S08,65,F,Black,Cohort B,Active Drug 50mg,3
+042-S09-016,S09,59,M,Other,Cohort A,Active Drug 50mg,3
+042-S10-016,S10,52,F,Asian,Cohort B,Active Drug 50mg,3
+042-S11-016,S11,53,F,Other,Cohort B,Active Drug 50mg,3
+042-S12-016,S12,63,F,Asian,Cohort B,Placebo,3
+042-S01-017,S01,64,F,Black,Cohort A,Placebo,3
+042-S02-017,S02,49,F,White,Cohort B,Placebo,3
+042-S03-017,S03,59,F,Black,Cohort B,Active Drug 50mg,3
+042-S04-017,S04,43,F,White,Cohort B,Active Drug 50mg,3
+042-S05-017,S05,68,F,White,Cohort A,Placebo,3
+042-S06-017,S06,76,M,White,Cohort B,Placebo,3
+042-S07-017,S07,56,F,White,Cohort B,Placebo,3
+042-S08-017,S08,55,F,Other,Cohort A,Active Drug 50mg,3
+042-S09-017,S09,50,F,Black,Cohort A,Placebo,3
+042-S10-017,S10,41,M,Hispanic,Cohort A,Placebo,3
+042-S11-017,S11,36,M,Asian,Cohort A,Placebo,3
+042-S12-017,S12,57,F,Hispanic,Cohort A,Active Drug 50mg,3
+042-S01-018,S01,68,F,Other,Cohort A,Active Drug 50mg,3
+042-S02-018,S02,46,M,Other,Cohort B,Active Drug 50mg,3
+042-S03-018,S03,66,M,Black,Cohort B,Placebo,3
+042-S04-018,S04,64,F,White,Cohort B,Placebo,3
+042-S05-018,S05,78,M,White,Cohort B,Placebo,3
+042-S06-018,S06,72,F,Hispanic,Cohort B,Placebo,3
+042-S07-018,S07,54,M,Hispanic,Cohort B,Active Drug 50mg,3
+042-S08-018,S08,50,F,Other,Cohort B,Placebo,3
+042-S09-018,S09,53,M,Hispanic,Cohort B,Active Drug 50mg,3
+042-S10-018,S10,71,M,Other,Cohort B,Placebo,3
+042-S11-018,S11,49,F,Black,Cohort A,Placebo,3
+042-S12-018,S12,78,M,White,Cohort A,Placebo,3
+042-S01-019,S01,63,M,Other,Cohort B,Active Drug 50mg,3
+042-S02-019,S02,40,F,Asian,Cohort B,Active Drug 50mg,3
+042-S03-019,S03,47,M,Other,Cohort B,Placebo,3
+042-S04-019,S04,45,F,Hispanic,Cohort B,Placebo,3
+042-S05-019,S05,42,F,White,Cohort A,Active Drug 50mg,4
+042-S06-019,S06,78,F,Other,Cohort B,Active Drug 50mg,4
+042-S07-019,S07,60,M,Asian,Cohort A,Placebo,4
+042-S08-019,S08,58,F,Other,Cohort B,Placebo,4
+042-S09-019,S09,41,M,Hispanic,Cohort A,Placebo,4
+042-S10-019,S10,74,M,White,Cohort B,Placebo,4
+042-S11-019,S11,76,F,White,Cohort A,Active Drug 50mg,4
+042-S12-019,S12,37,F,Hispanic,Cohort A,Active Drug 50mg,4
+042-S01-020,S01,50,M,Hispanic,Cohort B,Placebo,4
+042-S02-020,S02,77,F,Other,Cohort A,Placebo,4
+042-S03-020,S03,76,M,Hispanic,Cohort B,Placebo,4
+042-S04-020,S04,37,F,Black,Cohort B,Placebo,4
+042-S05-020,S05,50,F,White,Cohort B,Placebo,4
+042-S06-020,S06,38,F,Asian,Cohort A,Active Drug 50mg,4
+042-S07-020,S07,64,M,Black,Cohort A,Active Drug 50mg,4
+042-S08-020,S08,56,M,Black,Cohort A,Active Drug 50mg,4
+042-S09-020,S09,70,M,Other,Cohort A,Active Drug 50mg,4
+042-S10-020,S10,56,M,Other,Cohort A,Placebo,4
+042-S11-020,S11,44,M,Other,Cohort B,Active Drug 50mg,4
+042-S12-020,S12,42,M,Black,Cohort A,Placebo,4
+042-S01-021,S01,50,F,White,Cohort A,Placebo,4

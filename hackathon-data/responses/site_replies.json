@@ -1,0 +1,16 @@
+{
+  "QRY_3_1": {
+    "site": "S02",
+    "status": "ANSWERED",
+    "response": "Confirmed local data entry typo. Value 3500 kat/L was mistakenly transcribed from non-standard lab slip; true value is 35 U/L."
+  },
+  "QRY_S01": {
+    "site": "S01",
+    "status": "CLOSED",
+    "response": "All subject dosing records verified against drug accountability logs. Doses strictly comply with 50mg protocol."
+  },
+  "default": {
+    "status": "ANSWERED",
+    "response": "Site coordinator verified source documents and updated electronic CRF."
+  }
+}

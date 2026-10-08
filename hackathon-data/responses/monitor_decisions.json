@@ -1,0 +1,19 @@
+{
+  "ESC_HYS_042-S05-003_3": {
+    "finding_id": "FND_HYS_042-S05-003_3",
+    "decision": "CLARIFY",
+    "clarification_request": "Please provide repeat ALT and Bilirubin measurements within 48 hours to confirm transaminase trend.",
+    "clarified_response": "Central laboratory re-assay confirmed instrument calibration artifact. True ALT is 38 U/L.",
+    "final_decision": "REJECTED",
+    "final_reason": "Downgraded to routine monitoring following laboratory re-assay confirmation."
+  },
+  "ESC_DOSE_042-S03-001_2": {
+    "finding_id": "FND_DOSE_042-S03-001_2",
+    "decision": "APPROVED",
+    "reason": "Confirmed noncompliant dosing administration (100mg instead of protocol 50mg). Protocol deviation corrective action opened."
+  },
+  "default": {
+    "decision": "APPROVED",
+    "reason": "Medical Monitor confirmed clinical assessment."
+  }
+}

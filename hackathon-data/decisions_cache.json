@@ -1,0 +1,965 @@
+{
+  "ESC_9_32": {
+    "decision_id": "ESC_9_32",
+    "detected_at_cut": 9,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_7_22": {
+    "decision_id": "ESC_7_22",
+    "detected_at_cut": 7,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "REJECTED",
+    "monitor_reason": "Laboratory repeat measurement confirmed unit reporting calibration error; patient asymptomatic. Downgraded to monitoring.",
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "DOWNGRADED_TO_MONITORING",
+    "audit_trail": []
+  },
+  "ESC_3_1": {
+    "decision_id": "ESC_3_1",
+    "detected_at_cut": 3,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 1,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_5_1": {
+    "decision_id": "ESC_5_1",
+    "detected_at_cut": 5,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 2,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_10_2": {
+    "decision_id": "ESC_10_2",
+    "detected_at_cut": 10,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_8_2": {
+    "decision_id": "ESC_8_2",
+    "detected_at_cut": 8,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_2_1": {
+    "decision_id": "ESC_2_1",
+    "detected_at_cut": 2,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 1,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_2_3": {
+    "decision_id": "ESC_2_3",
+    "detected_at_cut": 12,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_5_14": {
+    "decision_id": "ESC_5_14",
+    "detected_at_cut": 5,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "REJECTED",
+    "monitor_reason": "Laboratory repeat measurement confirmed unit reporting calibration error; patient asymptomatic. Downgraded to monitoring.",
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "DOWNGRADED_TO_MONITORING",
+    "audit_trail": []
+  },
+  "ESC_11_38": {
+    "decision_id": "ESC_11_38",
+    "detected_at_cut": 11,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_2_4": {
+    "decision_id": "ESC_2_4",
+    "detected_at_cut": 2,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "UNANSWERED_EXPIRED",
+    "monitor_reason": "Human monitor did not respond within 4 data cuts. Safety policy maintains strict pending restriction without silent approval.",
+    "correction_applied": null,
+    "final_action": "EXPIRED_UNRESOLVED_SAFETY_GATE_LOCKED",
+    "audit_trail": []
+  },
+  "ESC_4_1": {
+    "decision_id": "ESC_4_1",
+    "detected_at_cut": 4,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 2,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_6_2": {
+    "decision_id": "ESC_6_2",
+    "detected_at_cut": 6,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 2,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_6_18": {
+    "decision_id": "ESC_6_18",
+    "detected_at_cut": 6,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "REJECTED",
+    "monitor_reason": "Laboratory repeat measurement confirmed unit reporting calibration error; patient asymptomatic. Downgraded to monitoring.",
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "DOWNGRADED_TO_MONITORING",
+    "audit_trail": []
+  },
+  "ESC_12_44": {
+    "decision_id": "ESC_12_44",
+    "detected_at_cut": 12,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_12_1": {
+    "decision_id": "ESC_12_1",
+    "detected_at_cut": 12,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_12_2": {
+    "decision_id": "ESC_12_2",
+    "detected_at_cut": 12,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_6_20": {
+    "decision_id": "ESC_6_20",
+    "detected_at_cut": 6,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "UNANSWERED_EXPIRED",
+    "monitor_reason": "Human monitor did not respond within 4 data cuts. Safety policy maintains strict pending restriction without silent approval.",
+    "correction_applied": null,
+    "final_action": "EXPIRED_UNRESOLVED_SAFETY_GATE_LOCKED",
+    "audit_trail": []
+  },
+  "ESC_9_30": {
+    "decision_id": "ESC_9_30",
+    "detected_at_cut": 9,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "REJECTED",
+    "monitor_reason": "Laboratory repeat measurement confirmed unit reporting calibration error; patient asymptomatic. Downgraded to monitoring.",
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "DOWNGRADED_TO_MONITORING",
+    "audit_trail": []
+  },
+  "ESC_7_2": {
+    "decision_id": "ESC_7_2",
+    "detected_at_cut": 7,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 2,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_10_34": {
+    "decision_id": "ESC_10_34",
+    "detected_at_cut": 10,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "REJECTED",
+    "monitor_reason": "Laboratory repeat measurement confirmed unit reporting calibration error; patient asymptomatic. Downgraded to monitoring.",
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "DOWNGRADED_TO_MONITORING",
+    "audit_trail": []
+  },
+  "ESC_2_2": {
+    "decision_id": "ESC_2_2",
+    "detected_at_cut": 2,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 1,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_10_36": {
+    "decision_id": "ESC_10_36",
+    "detected_at_cut": 10,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_3_2": {
+    "decision_id": "ESC_3_2",
+    "detected_at_cut": 3,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 1,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_10_1": {
+    "decision_id": "ESC_10_1",
+    "detected_at_cut": 10,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_6_1": {
+    "decision_id": "ESC_6_1",
+    "detected_at_cut": 6,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 2,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_11_1": {
+    "decision_id": "ESC_11_1",
+    "detected_at_cut": 11,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_8_1": {
+    "decision_id": "ESC_8_1",
+    "detected_at_cut": 8,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_9_2": {
+    "decision_id": "ESC_9_2",
+    "detected_at_cut": 9,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_8_28": {
+    "decision_id": "ESC_8_28",
+    "detected_at_cut": 8,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "UNANSWERED_EXPIRED",
+    "monitor_reason": "Human monitor did not respond within 4 data cuts. Safety policy maintains strict pending restriction without silent approval.",
+    "correction_applied": null,
+    "final_action": "EXPIRED_UNRESOLVED_SAFETY_GATE_LOCKED",
+    "audit_trail": []
+  },
+  "D-0042": {
+    "decision_id": "D-0042",
+    "detected_at_cut": 3,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 1,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_8_26": {
+    "decision_id": "ESC_8_26",
+    "detected_at_cut": 8,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "REJECTED",
+    "monitor_reason": "Laboratory repeat measurement confirmed unit reporting calibration error; patient asymptomatic. Downgraded to monitoring.",
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "DOWNGRADED_TO_MONITORING",
+    "audit_trail": []
+  },
+  "ESC_11_2": {
+    "decision_id": "ESC_11_2",
+    "detected_at_cut": 11,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_7_1": {
+    "decision_id": "ESC_7_1",
+    "detected_at_cut": 7,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 2,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_3_8": {
+    "decision_id": "ESC_3_8",
+    "detected_at_cut": 3,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "UNANSWERED_EXPIRED",
+    "monitor_reason": "Human monitor did not respond within 4 data cuts. Safety policy maintains strict pending restriction without silent approval.",
+    "correction_applied": null,
+    "final_action": "EXPIRED_UNRESOLVED_SAFETY_GATE_LOCKED",
+    "audit_trail": []
+  },
+  "ESC_12_42": {
+    "decision_id": "ESC_12_42",
+    "detected_at_cut": 12,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_11_40": {
+    "decision_id": "ESC_11_40",
+    "detected_at_cut": 11,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_5_16": {
+    "decision_id": "ESC_5_16",
+    "detected_at_cut": 5,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "UNANSWERED_EXPIRED",
+    "monitor_reason": "Human monitor did not respond within 4 data cuts. Safety policy maintains strict pending restriction without silent approval.",
+    "correction_applied": null,
+    "final_action": "EXPIRED_UNRESOLVED_SAFETY_GATE_LOCKED",
+    "audit_trail": []
+  },
+  "ESC_4_12": {
+    "decision_id": "ESC_4_12",
+    "detected_at_cut": 4,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "UNANSWERED_EXPIRED",
+    "monitor_reason": "Human monitor did not respond within 4 data cuts. Safety policy maintains strict pending restriction without silent approval.",
+    "correction_applied": null,
+    "final_action": "EXPIRED_UNRESOLVED_SAFETY_GATE_LOCKED",
+    "audit_trail": []
+  },
+  "ESC_9_1": {
+    "decision_id": "ESC_9_1",
+    "detected_at_cut": 9,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_5_2": {
+    "decision_id": "ESC_5_2",
+    "detected_at_cut": 5,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 2,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_4_10": {
+    "decision_id": "ESC_4_10",
+    "detected_at_cut": 4,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "REJECTED",
+    "monitor_reason": "Laboratory repeat measurement confirmed unit reporting calibration error; patient asymptomatic. Downgraded to monitoring.",
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "DOWNGRADED_TO_MONITORING",
+    "audit_trail": []
+  },
+  "ESC_4_2": {
+    "decision_id": "ESC_4_2",
+    "detected_at_cut": 4,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 2,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "PENDING",
+    "monitor_reason": null,
+    "correction_applied": null,
+    "final_action": "AWAITING_HUMAN_MONITOR_DECISION",
+    "audit_trail": []
+  },
+  "ESC_7_24": {
+    "decision_id": "ESC_7_24",
+    "detected_at_cut": 7,
+    "reason": "Dosing deviation recorded against planned protocol regimen.",
+    "evidence_records": [
+      "EX_042-S03-001_WEEK2"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "UNANSWERED_EXPIRED",
+    "monitor_reason": "Human monitor did not respond within 4 data cuts. Safety policy maintains strict pending restriction without silent approval.",
+    "correction_applied": null,
+    "final_action": "EXPIRED_UNRESOLVED_SAFETY_GATE_LOCKED",
+    "audit_trail": []
+  },
+  "ESC_3_7": {
+    "decision_id": "ESC_3_7",
+    "detected_at_cut": 3,
+    "reason": "Subject exhibits concurrent transaminase >3x ULN with bilirubin >2x ULN and normal ALP. Meets Hy's law criteria. Urgent escalation to Medical Monitor required.",
+    "evidence_records": [
+      "LB_042-S05-003_WEEK4_ALT",
+      "LB_042-S05-003_WEEK4_BILIRUBIN"
+    ],
+    "rule_applied": "HYS_LAW_OR_DOSING_COMPLIANCE",
+    "protocol_version": 3,
+    "is_deterministic": true,
+    "was_escalated": true,
+    "monitor_decision": "REJECTED",
+    "monitor_reason": "Laboratory repeat measurement confirmed unit reporting calibration error; patient asymptomatic. Downgraded to monitoring.",
+    "correction_applied": {
+      "cut": 5,
+      "record_id": "LB_042-S05-003_WEEK4_ALT",
+      "field": "value",
+      "old_value": "160.0",
+      "new_value": "38.0",
+      "reason": "Central laboratory instrument calibration error re-assayed. Correct ALT is 38 U/L.",
+      "applied_at": "2026-10-08T03:15:19.260272"
+    },
+    "final_action": "DOWNGRADED_TO_MONITORING",
+    "audit_trail": []
+  }
+}

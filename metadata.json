@@ -1,0 +1,6 @@
+{
+  "name": "TrialCore Intelligence",
+  "description": "Deterministic clinical-trial surveillance, connected knowledge graph reasoning, 6-node monitor workflow, and 12-cut longitudinal surveillance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
